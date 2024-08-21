@@ -175,7 +175,7 @@
       <section class="my-24">
         <h3 class="text-5xl font-bold text-center">Fetured Bikes In This Year</h3>
         <p class="text-center text-[#E76F51] mb-10">Best bike collection</p>
-        <div class="lg:flex justify-center grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3 ">
+        <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
             <div class="card bg-base-100 shadow-xl size-80">
               <img src="./images/others/feature-bike.png" alt="">
             </div>
@@ -189,7 +189,7 @@
       </section>
 
       <!-- Latest Bike Section -->
-       <section class="my-24">
+       <section class="my-24 m-2.5">
         <h3 class="text-5xl font-bold text-center mb-12">Latest Bikes</h3>
         <!-- cards -->
         <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
@@ -251,7 +251,89 @@
        </section>
     </main>
     <!-- Happy Clients Happy Homework -->
-    <section></section>
+    <section class="lg:m-20 m-2.5">
+      <h3 class="text-5xl font-bold text-center mb-12">
+        Happy <span class="text-bike-primary">Clients says </span>
+      </h3>
+      <!-- Happy -->
+      <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
+        <!-- happy card 1 -->
+        <div class="card bg-base-100 shadow-xl items-center">
+          <div class="avatar">
+            <div class="w-24 rounded-full">
+              <img src="./images/others/user-1.png" />
+            </div>
+          </div>
+          <div class="card-body items-center">
+            <p class="text-center">
+              Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.
+            </p>
+            <div class="rating">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-300"  checked="checked" />
+            </div>
+            <p class="text-blue-400">Regina Miles</p>
+            <p class="font-bold">Banker</p>
+          </div>
+        </div>
+        <!-- happy card 2 -->
+        <div class="card bg-base-100 shadow-xl items-center">
+          <div class="avatar">
+            <div class="w-24 rounded-full">
+              <img src="./images/others/user-2.png" />
+            </div>
+          </div>
+          <div class="card-body items-center">
+            <p class="text-center">
+              Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.
+            </p>
+            <div class="rating">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-300"  checked="checked" />
+            </div>
+            <p class="text-blue-400">Regina Miles</p>
+            <p class="font-bold">Banker</p>
+          </div>
+        </div>
+        <!-- happy card 3 -->
+        <div class="card bg-base-100 shadow-xl items-center">
+          <div class="avatar">
+            <div class="w-24 rounded-full">
+              <img src="./images/others/user-3.png" />
+            </div>
+          </div>
+          <div class="card-body items-center">
+            <p class="text-center">
+              Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.
+            </p>
+            <div class="rating">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-300"  checked="checked" />
+            </div>
+            <p class="text-blue-400">Regina Miles</p>
+            <p class="font-bold">Banker</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- FAQ Section -->
     <section class="my-24">
@@ -333,15 +415,22 @@
       </div>
     </section>
   </main>
-
-  <!-- Footer Section -->
-  <footer class="footer bg-black text-neutral-content p-10">
-    <aside>
-      <p>
-        ACME Industries Ltd.
-        <br />
-        Providing reliable tech since 1992
-      </p>
+  <footer class="footer bg-black text-neutral-content p-10 lg:px-20 justify-center justify-between">
+    <aside class="">
+      <div class="space-x-8 mb-5">
+        <a class="link link-hover">Download Now</a>
+        <a class="link link-hover">License</a>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-2 lg:flex lg:space-x-5">
+        <a class="link link-hover">About</a>
+        <a class="link link-hover">Features</a>
+        <a class="link link-hover">Pricing</a>
+        <a class="link link-hover">Careers</a>
+        <a class="link link-hover">Help</a>
+        <a class="link link-hover">Privacy Policy</a>
+      </div class="">
+      <p class="text-black lg:text-white lg:mt-5 ">© 2024 bike. All rights reserved</p>
+      </div>
     </aside>
     <nav>
       <h6 class="footer-title">Get The App</h6>
@@ -351,5 +440,8 @@
       </div>
     </nav>
   </footer>
+  <div class="footer bg-black text-neutral-content p-10 pt-0 lg:hidden">
+    <p>© 2024 bike. All rights reserved</p>
+  </div>
 </body>
 </html>
